@@ -9,7 +9,7 @@ var terrain = [];
 var startMode = true;
 
 function setup() {
-  createCanvas(1400, 800, WEBGL);
+  createCanvas(2000, 1800, WEBGL);
   cols = w / scl;
   rows = h/ scl;
 
