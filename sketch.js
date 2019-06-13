@@ -1,4 +1,3 @@
-
 var cols, rows;
 var scl = 20
 var w = 1400;
@@ -9,7 +8,7 @@ var terrain = [];
 var startMode = true;
 
 function setup() {
-  createCanvas(2000, 1800, WEBGL);
+  createCanvas(1000, 1800, WEBGL);
   cols = w / scl;
   rows = h/ scl;
 
